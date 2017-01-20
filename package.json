@@ -1,0 +1,31 @@
+{
+  "name": "defe",
+  "version": "1.0.0",
+  "description": "144 bytes ES5 compatible standalone Promise.defer() implementation",
+  "main": "index.js",
+  "scripts": {
+    "lab": "standard && lab --verbose --colors --assert code",
+    "test": "npm run lab -- test.js",
+    "test-cov": "npm run lab -- -c -r console -o stdout -r lcov -o coverage/lcov.info test.js"
+  },
+  "keywords": [
+    "promise",
+    "defer",
+    "deferred",
+    "small",
+    "ES5"
+  ],
+  "author": "Alan Hoffmeister <alanhoffmeister@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanhoff/node-defe/issues"
+  },
+  "repository": "alanhoff/node-defe",
+  "homepage": "https://github.com/alanhoff/node-defe",
+  "devDependencies": {
+    "bluebird": "^3.4.7",
+    "code": "^4.0.0",
+    "lab": "^12.0.0",
+    "standard": "^8.6.0"
+  }
+}
